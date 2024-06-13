@@ -216,14 +216,14 @@ li {
 
 .maxbox li:nth-child(1) {
   background: url(../img-one/111.jpg) no-repeat 0 0;
-  background-size: 100% 100%;
+  background-size: 400px 400px;
   background-position: center;
   -webkit-transform: translateZ(50px);
 }
 
 .maxbox li:nth-child(2) {
   background: url(../img-one/222.jpg) no-repeat 0 0;
-  background-size: 100% 100%;
+  background-size: 400px 400px;
   background-position: center;
   -webkit-transform: translateZ(50px);
   /* transform: rotate(180deg); */
@@ -231,28 +231,28 @@ li {
 
 .maxbox li:nth-child(3) {
   background: url(../img-one/333.jpg) no-repeat 0 0;
-  background-size: 100% 100%;
+  background-size: 400px 400px;
   background-position: center;
   -webkit-transform: rotateX(-90deg) translateZ(50px);
 }
 
 .maxbox li:nth-child(4) {
   background: url(../img-one/444.jpg) no-repeat 0 0;
-  background-size: 100% 100%;
+  background-size: 400px 400px;
   background-position: center;
   -webkit-transform: rotateX(90deg) translateZ(50px);
 }
 
 .maxbox li:nth-child(5) {
   background: url(../img-one/555.jpg) no-repeat 0 0;
-  background-size: 100% 100%;
+  background-size: 400px 400px;
   background-position: center;
   -webkit-transform: rotateY(-90deg) translateZ(50px);
 }
 
 .maxbox li:nth-child(6) {
   background: url(../img-one/666.jpg) no-repeat 0 0;
-  background-size: 100% 100%;
+  background-size: 400px 400px;
   background-position: center;
   -webkit-transform: rotateY(90deg) translateZ(50px);
 }
