@@ -81,6 +81,20 @@
             }
             audioAutoPlay();
         });
+        document.addEventListener('DOMContentLoaded', function () {
+            function audioAutoPlay() {
+                var audio = document.getElementById('js-video');
+                    audio.play();
+                document.addEventListener("WeixinJSBridgeReady", function () {
+                    audio.play();
+                const play = document.getElementById('js-play');
+                const pause = document.getElementById('js-pause');
+                play.style.display='none';
+                pause.style.display='block'
+                }, false);
+            }
+            audioAutoPlay();
+        });
         $(function () {
             AudioControl('js-video');
 
