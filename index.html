@@ -74,26 +74,11 @@
         </div>
     </div>
     <script>
-        document.addEventListener('touchstart', function () {
-            function audioAutoPlay() {
-                var audio = document.getElementById('js-video');
-                audio.play();
-            }
-            audioAutoPlay();
-        });
-        document.addEventListener('DOMContentLoaded', function () {
-            function audioAutoPlay() {
-                var audio = document.getElementById('js-video');
-                    audio.play();
-                document.addEventListener("WeixinJSBridgeReady", function () {
-                    audio.play();
-                const play = document.getElementById('js-play');
-                const pause = document.getElementById('js-pause');
-                play.style.display='none';
-                pause.style.display='block'
-                }, false);
-            }
-            audioAutoPlay();
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+            var audio = document.getElementById('js-video');
+            audio.play();
+          }, 2000); // 延迟1秒后播放音频
         });
         $(function () {
             AudioControl('js-video');
