@@ -172,64 +172,64 @@ li {
 }
 
 .minbox li:nth-child(1) {
-    background: url(../img-one/01.jpg) no-repeat 0 0;
+    background: url(../img-two/01.jpg) no-repeat 0 0;
     -webkit-transform: translateZ(50px);
 }
 
 .minbox li:nth-child(2) {
-    background: url(../img-one/02.jpg) no-repeat 0 0;
+    background: url(../img-two/02.jpg) no-repeat 0 0;
     -webkit-transform: rotateX(180deg) translateZ(50px);
     /* transform: rotate(180deg); */
 }
 
 .minbox li:nth-child(3) {
-    background: url(../img-one/03.jpg) no-repeat 0 0;
+    background: url(../img-two/03.jpg) no-repeat 0 0;
     -webkit-transform: rotateX(-90deg) translateZ(50px);
 }
 
 .minbox li:nth-child(4) {
-    background: url(../img-one/04.jpg) no-repeat 0 0;
+    background: url(../img-two/04.jpg) no-repeat 0 0;
     -webkit-transform: rotateX(90deg) translateZ(50px);
 }
 
 .minbox li:nth-child(5) {
-    background: url(../img-one/05.jpg) no-repeat 0 0;
+    background: url(../img-two/05.jpg) no-repeat 0 0;
     -webkit-transform: rotateY(-90deg) translateZ(50px);
 }
 
 .minbox li:nth-child(6) {
-    background: url(../img-one/06.jpg) no-repeat 0 0;
+    background: url(../img-two/06.jpg) no-repeat 0 0;
     -webkit-transform: rotateY(90deg) translateZ(50px);
 }
 
 .maxbox li:nth-child(1) {
-    background: url(../img-one/1.jpg) no-repeat 0 0;
+    background: url(../img-two/1.jpg) no-repeat 0 0;
     -webkit-transform: translateZ(50px);
 }
 
 .maxbox li:nth-child(2) {
-    background: url(../img-one/2.jpg) no-repeat 0 0;
+    background: url(../img-two/2.jpg) no-repeat 0 0;
     -webkit-transform: translateZ(50px);
     /* transform: rotate(180deg); */
 }
 
 .maxbox li:nth-child(3) {
-    background: url(../img-one/3.jpg) no-repeat 0 0;
+    background: url(../img-two/3.jpg) no-repeat 0 0;
     -webkit-transform: rotateX(-90deg) translateZ(50px);
 }
 
 .maxbox li:nth-child(4) {
-    background: url(../img-one/4.jpg) no-repeat 0 0;
+    background: url(../img-two/4.jpg) no-repeat 0 0;
     -webkit-transform: rotateX(90deg) translateZ(50px);
 }
 
 .maxbox li:nth-child(5) {
-    background: url(../img-one/5.jpg) no-repeat 0 0;
+    background: url(../img-two/5.jpg) no-repeat 0 0;
     -webkit-transform: rotateY(-90deg) translateZ(50px);
 }
 
 .maxbox li:nth-child(6) {
-    background: url(../img-one/6.jpg) no-repeat 0 0;
+    background: url(../img-two/6.jpg) no-repeat 0 0;
     -webkit-transform: rotateY(90deg) translateZ(50px);
 }
 
